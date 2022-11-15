@@ -117,10 +117,24 @@ The questions below will ask you about the design of the Badger News app that yo
 
 INSERT YOUR RESPONSE HERE.
 
+As for a perceptible affordance, I will add a save tab in bottom. I will put it between news and preferences tabs. This tab allows user save articles to read later and is executable.Near by this tab, I will add a start icon to enable users to intuitively recognize actions that are possible with this save tabs.  
+
+When it comes to hidden affordance, I plan to add a possible dark model for users. This affordance is not too obvious. It hiddend behind a drop down menu that only appears when the user is hovering over it. The clues that indicate this dark function are not obvious and may not even be displayed until the action is being taken. I think this function is rarely called, only when switching. So I design this one as a hidden affordance.
+
 2. In your own words, briefly describe each of the three design paradigms that we discussed in class. What could be done to make our app design more metaphoric? What would be the benefits and consequences of a more metaphoric design?
 
 INSERT YOUR RESPONSE HERE.
 
+Firstly, implementation-centric is a direct implementation that directly demonstrates the functionality of the system。
+Next, metaphorical design simulates a real-life scenario.It makes users feel that the product on the screen is close to the real-world usage scenario. Idiomatic design requires users to learn by themselves. After the user has learned a certain function, he can master how to manipulate the product. 
+
+I can display user favorites in the save interface by simulating real-world bookshelves and newsstands. For a more metaphoric design,it works well in expert interfaces where the interface simulates a real-world system. However, for a more metaphoric design, it is difficult to achieve without a similar scenario in the real world.
+
+
 3. Briefly describe the business goal(s) and posture level of this application. Then, what is a task a user may try to accomplish? How does your app support this task?
 
 INSERT YOUR RESPONSE HERE.
+
+In my opinion, the business goals are making money and provide information to user. As to posture level, the type of this app is news. 
+
+For tasks, user can set their preferences by preference screen and switching button. And they can read body of the article by cliking the article card and back to the article lists. My app support this task by a stack screen. 

@@ -3,14 +3,12 @@ import { Alert, Switch, Text, View } from "react-native";
 import { Card } from "react-native-paper";
 
 function BadgerPreferenceSwitch(props) {
-
-    const [isOn, setIsOn] = useState(props.initVal ? props.initVal : true)
+    const [isOn, setIsOn] = useState(props.initVal ? props.initVal : false)
 
     useEffect(() => props.handleToggle(props.prefName, isOn), [isOn]);
-
+    
     const toggle = useCallback(() => setIsOn(prev => !prev), [setIsOn]);
-
-    const showHint = useCallback(() => Alert.alert('Help', isOn ? 
+    const showHint = useCallback(() =>  Alert.alert('Help', isOn ? 
         `Toggle off to hide content related to ${props.prefName}!`
         : 
         `Toggle on to show content related to ${props.prefName}!`)
